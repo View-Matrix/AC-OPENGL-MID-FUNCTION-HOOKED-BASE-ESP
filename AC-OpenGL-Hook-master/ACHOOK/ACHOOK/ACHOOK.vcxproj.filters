@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Mem">
+      <UniqueIdentifier>{9226d5bc-fdb4-45e9-b10e-3e4b9f26aead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Offsets">
+      <UniqueIdentifier>{70505501-2ea5-4b8d-8c71-96d307e6a0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Hook">
+      <UniqueIdentifier>{87178f7b-6266-40c6-af03-d49d28056189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Hack">
+      <UniqueIdentifier>{bcf09eae-276a-4e43-b3fe-602e43b34301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render">
+      <UniqueIdentifier>{82cb49ed-a696-4d81-acfc-9bd62741c494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{d3772fc6-4133-42e7-8978-5cc1150e8adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{22e348c5-bd03-48ff-bc4f-36abaf315648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Enum">
+      <UniqueIdentifier>{bcf98e0a-04e9-4c6d-a7ad-c023dd938b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Class">
+      <UniqueIdentifier>{97e34656-9cdf-4c88-ab5e-a46a04a3a978}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mem.cpp">
+      <Filter>소스 파일\Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>소스 파일\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack.cpp">
+      <Filter>소스 파일\Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mem.h">
+      <Filter>소스 파일\Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>헤더 파일\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack.h">
+      <Filter>소스 파일\Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>소스 파일\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>소스 파일\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>소스 파일\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
+      <Filter>소스 파일\Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
